@@ -1,0 +1,84 @@
+# NVRAM file for BCM94334B2WLAGB Kyle-ATT_R01 2012.10.10
+# 2.4GHz FEM RFMD RFFM8202
+
+manfid=0x2d0
+prodid=0x05de
+vendid=0x14e4
+devid=0x4380
+boardtype=0x05de
+boardrev=0x1204
+boardnum=22
+macaddr=00:90:4c:c5:12:38
+sromrev=3
+
+boardflags=0x81a01
+xtalfreq=37400
+nocrc=1
+ag0=253
+aa2g=1
+ccode=US
+regrev=46
+pa0itssit=0x20
+#PA parameters for 2.4GHz : 
+pa0b0=0x15BE
+pa0b1=0xFD68
+pa0b2=0xFF52
+
+#pa0b0=0x14BE
+#pa0b1=0xFD7E
+#pa0b2=0xFF52
+
+maxp2ga0=72
+ofdm2gpo=0x55555555
+mcs2gpo0=0x7777
+mcs2gpo1=0x7777
+cckPwrOffset=-6
+cckdigfilttype=24
+#ofdmdigfilttype=3
+ofdmdigfilttype2g=3
+tssifloor2g=12
+extpagain2g=2
+
+# rssi params for 2.4GHz
+rssismf2g=0x3
+rssismc2g=0xa
+rssisav2g=0x1
+il0macaddr=00:90:4c:c5:12:38
+wl0id=0x431b
+pagc2g=0x10
+
+# Parameters for DAC2x mode and ALPF bypass
+dacrate2xen=1
+txalpfbyp=1
+txalpfpu=1
+
+#Murata 2G FEM switch control table
+#swctrlmap_2g=0x00440044,0x00020002,0x00000000,0x10200,0x1ff
+#RFMD 2G FEM switch control table
+swctrlmap_2g=0x00400040,0x00060006,0x00020002,0x10200,0x1ff
+
+elna_off_gain_idx_2g=30
+triso2g=6
+dacpu.fab.4=1
+
+aci_detect_en_2g=1
+txiqlopapu2g=0
+
+# For low rate sensitivity of RC58.28
+gain_settle_dly_2g=4
+noise_cal_po_2g=-1
+noise_cal_high_gain_2g=73
+noise_cal_nf_substract_val_2g=346
+
+rssicorrnorm=-3
+rssicorratten=-3
+
+#SW OOB + edge trigger.
+sd_gpout=0
+sd_gpval=1
+sd_oobonly=1
+
+#BTC_Coex params. 
+btc_params80=0
+btc_params6=10 
+btc_params95=53  
